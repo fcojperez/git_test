@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "e224ff76_8ba97d05",
+        "filename": "file_f2",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1013364
+      },
+      "writtenOn": "2018-01-26T15:10:59Z",
+      "side": 1,
+      "message": "This file is empty",
+      "revId": "efd469ced2c6c0f6cc2893056fd2a69044cc8a3e",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}

@@ -2,4 +2,3 @@
 host=review.gerrithub.io
 port=29418
 project=fcojperez/git_test
-defaultbranch=new_branch6

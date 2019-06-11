@@ -1,0 +1,169 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f6e15137_b1375de8",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "Los imports deben hacerse en cierto orden",
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "aedb21d4_b2ff4c5a",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 19,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "los nombres de los metodos en python no son como en C o Java. Deberia ser algo como get_glance_cli ( lo mismo para todos )",
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "dfbb5782_daa07189",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "Capturar excepciones generias es una fea costumbre. Deberias capturar especificas",
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8544e259_fd1ecc74",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 34,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "Los metodos deben tener un \"documentation header\" apropiado ... algo como\n\"\"\"\nbla bla bla\n\"\"\"",
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e51953fc_798604f8",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "Todo esto es enrevesado. Deberias hacer el import al principio y si falla fallo.",
+      "range": {
+        "startLine": 35,
+        "startChar": 3,
+        "endLine": 43,
+        "endChar": 39
+      },
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "03350d1e_bf32e109",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 45,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "Esta macro linea, a parte de demostrar que eres un maquina de comprenhention lists y lambda, es muy larga y criptica para el caso. Con el tamano de datos que estas manejando no esta aportando ninguna mejora en rendimiento pero si ilegibilidad de codigo.",
+      "range": {
+        "startLine": 45,
+        "startChar": 2,
+        "endLine": 45,
+        "endChar": 139
+      },
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "e0aca01e_9ee73544",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 57,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "Lo mismo, capturar exepciones genericas no debe hacerse",
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4c339dfe_ba3ac17c",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "A no ser que quieras hacer esto como modulo, esto aqui no pinta nada. Podrias poner el codigo que tienes en el main() directamente aqui. Si lo quieres hacer como modulo, ofreceria otro API en lugar de ese main(). Podria tener sentido ofrecer un list_images() que directamente construya el glc_client y devuelva las imagenes.",
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "51a22d63_a5692f29",
+        "filename": "listImage.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 63,
+      "author": {
+        "id": 1015225
+      },
+      "writtenOn": "2019-06-11T12:22:05Z",
+      "side": 1,
+      "message": "A parte de todo eso. Echale un vistazo a PEP8 y pylint. El codigo esta lleno de errores de estilo, como espacios donde no deben haber, modulos importados pero no usados, lineas de mas o de menos, nombres de funciones que no siguen la \"norma\", indentaciones incorrectas, lineas demasiado largas, variables no utilizadas etc.\n\nA parte de esos pequenos detalles ... cojonudo",
+      "revId": "713859067480856d2139c3329b45b63dfa2688e9",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": true
+    }
+  ]
+}
